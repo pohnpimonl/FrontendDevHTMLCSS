@@ -1,0 +1,47 @@
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+ul {
+  font-size: 40px;
+}
+
+ul ul {
+  color: white;
+  background-color: black;
+  font-size: 0.4em;
+}
+
+ul ul:nth-of-type(ODD) {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul ul:nth-of-type(EVEN) {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: skyblue;
+}
+.bmenu {
+  padding: 0px;
+  margin: 0 0 10px 0;
+  position: relative;
+}
+.bmenu li {
+  font-size: 50px;
+  display: block;
+}
+.bmenu li a {
+  color: transparent;
+  display: block;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 5px #fff;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
